@@ -1,0 +1,13 @@
+CREATE OR REPLACE PROCEDURE MESSAGE
+IS
+BEGIN
+    dbms_output.put_line('Welcome to PL/SQL');
+END;
+/
+
+BEGIN
+    MESSAGE;
+END;
+/
+
+EXEC MESSAGE;
